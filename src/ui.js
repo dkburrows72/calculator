@@ -46,13 +46,14 @@ export default function createUI() {
 
     function createButton(id, text) {
         const newButton = document.createElement("button");
-        newButton.style.width = "40px";
-        newButton.style.height = "40px";
+        newButton.style.width = "60px";
+        newButton.style.height = "60px";
         newButton.style.border = "2px solid black";
         newButton.style.borderRadius = "3px";
         newButton.textContent = text;
         newButton.id = id;
-        newButton.style.flex = "1";
+        newButton.style.flexGrow = "0";
+        newButton.style.flexShrink = "0";
 
         return newButton;
     }
