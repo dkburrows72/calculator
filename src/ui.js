@@ -13,7 +13,7 @@ export default function createUI() {
     const equalsButton = createButton("equals", "=");
     const plusButton = createButton("plus", "+");
     const minusButton = createButton("minus", "-");
-    const timesButton = createButton("times", "X");
+    const timesButton = createButton("times", "*");
     const divideButton = createButton("divide", "/");
 
     container.appendChild(
